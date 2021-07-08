@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrawingApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas  id="canvas" width="1080" height="720"></canvas>
+    <div class="toolbar">
+        
+        <div class="toolbar__item">
+            <input id="lineWidth" type="range" min="1" max="100" value="5" >
+            <div class="txt">Select line width</div>
+        </div>
+
+        <div class="toolbar__item">
+            <input id="lineColor" type="color"  >
+            <div class="txt">Select line color</div>
+        </div>
+
+        <div class="toolbar__item">
+            <button id="clearBtn">Clear Canvas</button>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
